@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
+}
+
+p,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+.why-us{
+    max-height: 100vh;
+    margin: 0 auto;
+}
+
+.container{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.title h1{
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.title p{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.info img{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.text-only p, .diamond-text p, .square-text p{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.diamond-text h2, .square-text h2{
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+}
+
+.diamond-text{
+    display: flex;
+}
+
+.diamond-text a{
+    color: #d06cb9;
+    font-size: 30px;
+    padding-right: 15px;
+    pointer-events: none;
+}
+
+.square-text{
+    display: flex;
+}
+
+.square-text a{
+    color: #ffb675;
+    font-size: 30px;
+    padding-right: 15px;
+    pointer-events: none;
+}
